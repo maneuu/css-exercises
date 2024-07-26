@@ -23,3 +23,19 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+/* answer */
+.header{
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo{
+  /*instead of space-between it also could be margin: auto; */
+}
+ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
