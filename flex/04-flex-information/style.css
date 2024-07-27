@@ -24,3 +24,38 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* answer */
+/* I GOT THE SAME PICTURE BUT NOT THE SAME CODE */
+
+/* 
+MY ANSWER
+*/
+.title , .text{
+  text-align: center;
+} 
+
+/* ODIN'S SOLUTION 
+ body{
+  text-align: center;
+ }
+*/
+.flex-container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 32px;
+
+}
+.item{
+  /* MY  ANSWER */
+  display: flex;
+  flex-basis: 200px; 
+  /* I COULD'NT FIGURE OUT HOW TO CENTER THE IMAGE SO I DID THIS .-. */
+  flex-direction: column;
+  align-items: center;
+
+  /* ODIN'S SOLUTION
+  max-width: 200px;
+   */
+}
+
