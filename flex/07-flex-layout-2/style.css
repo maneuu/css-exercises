@@ -27,3 +27,60 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* answer */
+  body{
+  display: flex;
+  flex-direction: column;
+  }
+.header{
+  align-content: center;
+  /* odin's solution
+  display: flex;
+  align-items: center; */
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+.main{
+  display: flex;
+  flex: 1;
+}
+.sidebar{
+  flex: 1 0 300px;
+  /*odin's solution 
+   flex-shrink: 0; */
+  padding: 16px;
+}
+.sidebar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.sidebar a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+.card-container{
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.card{
+  box-sizing: border-box;
+  max-width: 300px;
+  padding: 16px;
+}
+.footer{
+  text-align: center;
+  align-content: center;
+  /* odin's solution
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ */
+}
